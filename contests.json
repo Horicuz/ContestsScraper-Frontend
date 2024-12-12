@@ -1,0 +1,146 @@
+[
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2043,
+        "contest_name": "Educational Codeforces Round 173 (Rated for Div. 2)",
+        "contest_start": 1734878100,
+        "url": "https://codeforces.com/contests/2043",
+        "duration": "2h"
+    },
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2049,
+        "contest_name": "Codeforces Round (Div. 2)",
+        "contest_start": 1734705300,
+        "url": "https://codeforces.com/contests/2049",
+        "duration": "2h"
+    },
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2048,
+        "contest_name": "Codeforces Global Round 28",
+        "contest_start": 1734618900,
+        "url": "https://codeforces.com/contests/2048",
+        "duration": "3h"
+    },
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2044,
+        "contest_name": "Codeforces Round (Div. 4)",
+        "contest_start": 1734273300,
+        "url": "https://codeforces.com/contests/2044",
+        "duration": "2h 15m"
+    },
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2040,
+        "contest_name": "Codeforces Round (Div. 2)",
+        "contest_start": 1733668500,
+        "url": "https://codeforces.com/contests/2040",
+        "duration": "2h"
+    },
+    {
+        "contest_provider": "Codeforces",
+        "contest_id": 2050,
+        "contest_name": "Codeforces Round 991 (Div. 3)",
+        "contest_start": 1733409300,
+        "url": "https://codeforces.com/contests/2050",
+        "duration": "2h 15m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "abc383",
+        "contest_name": "Daiwa Securities Co. Ltd. Programming Contest 2024\uff08AtCoder Beginner Contest 383\uff09",
+        "contest_start": 1733572800,
+        "url": "https://atcoder.jp/contests/abc383",
+        "duration": "1h 40m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "arc189",
+        "contest_name": "AtCoder Regular Contest 189 (Div. 2)",
+        "contest_start": 1733659200,
+        "url": "https://atcoder.jp/contests/arc189",
+        "duration": "2h"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "abc384",
+        "contest_name": "Toyota Programming Contest 2024#12\uff08AtCoder Beginner Contest 384\uff09",
+        "contest_start": 1734177600,
+        "url": "https://atcoder.jp/contests/abc384",
+        "duration": "1h 40m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "ttpc2024_1",
+        "contest_name": "Tokyo Tech Programming Contest 2024 (Div. 1)",
+        "contest_start": 1734235200,
+        "url": "https://atcoder.jp/contests/ttpc2024_1",
+        "duration": "5h"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "ttpc2024_2",
+        "contest_name": "Tokyo Tech Programming Contest 2024 (Div. 2)",
+        "contest_start": 1734235200,
+        "url": "https://atcoder.jp/contests/ttpc2024_2",
+        "duration": "5h"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "abc385",
+        "contest_name": "UNIQUE VISION Programming Contest 2024 Christmas (AtCoder Beginner Contest 385)",
+        "contest_start": 1734782400,
+        "url": "https://atcoder.jp/contests/abc385",
+        "duration": "1h 40m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "abc386",
+        "contest_name": "AtCoder Beginner Contest 386",
+        "contest_start": 1735387200,
+        "url": "https://atcoder.jp/contests/abc386",
+        "duration": "1h 40m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "agc070",
+        "contest_name": "AtCoder Grand Contest 070",
+        "contest_start": 1735473600,
+        "url": "https://atcoder.jp/contests/agc070",
+        "duration": "3h"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "abc387",
+        "contest_name": "AtCoder Beginner Contest 387",
+        "contest_start": 1735992000,
+        "url": "https://atcoder.jp/contests/abc387",
+        "duration": "1h 40m"
+    },
+    {
+        "contest_provider": "AtCoder",
+        "contest_id": "masters2025-qual",
+        "contest_name": "The 2nd Masters Championship-qual-",
+        "contest_start": 1740888000,
+        "url": "https://atcoder.jp/contests/masters2025-qual",
+        "duration": "6h"
+    },
+    {
+        "contest_provider": "LeetCode",
+        "contest_id": "weekly-contest-427",
+        "contest_name": "Weekly Contest 427",
+        "contest_start": 1733625000,
+        "url": "https://leetcode.com/contest/weekly-contest-427",
+        "duration": "1h 30m"
+    },
+    {
+        "contest_provider": "LeetCode",
+        "contest_id": "biweekly-contest-145",
+        "contest_name": "Biweekly Contest 145",
+        "contest_start": 1733581800,
+        "url": "https://leetcode.com/contest/biweekly-contest-145",
+        "duration": "1h 30m"
+    }
+]
