@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Contests List</title>
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -21,9 +20,15 @@
       </div>
 
       <div class="lists">
-        <script src="fetcher.js"></script>
+        <script defer src="fetcher.js"></script>
+        <script defer src="filter.js"></script>
         <div class="settings">
-          <button class="Contests" onclick="fetchData()">Contests</button>
+          <select id="contest-select" class="select"">
+            <option value = "0" data-value="0">All Contests</option>
+            <option value = "1" data-value="1">Codeforces</option>
+            <option value = "2" data-value="2">LeetCode</option>
+            <option value = "3" data-value="3">AtCoder</option>
+          </select>
           <input type="text" class="search" placeholder="Search" />
           <button class="Start_time" onclick="">StartTime</button>
           <button class="Difficulty" onclick="">Difficulty</button>
