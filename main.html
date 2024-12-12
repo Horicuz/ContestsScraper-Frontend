@@ -21,12 +21,18 @@
       </div>
 
       <div class="lists">
-        <div class="settings"></div>
-        <ul>
-          <li>Text3</li>
-          <li>TExt2</li>
-          <li>Text1</li>
-        </ul>
+        <script src="fetcher.js"></script>
+        <div class="settings">
+          <button class="Contests" onclick="fetchData()">Contests</button>
+          <input type="text" class="search" placeholder="Search" />
+          <button class="Start_time" onclick="">StartTime</button>
+          <button class="Difficulty" onclick="">Difficulty</button>
+        </div>
+        <div class="scrollbox">
+          <div class="inner">
+            <ol class="Contest_List"></ol>
+          </div>
+        </div>
       </div>
     </div>
   </body>
