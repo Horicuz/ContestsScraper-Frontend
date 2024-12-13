@@ -4,14 +4,14 @@ var context = canvas.getContext("2d");
 var W = window.innerWidth;
 var H = window.innerHeight;
 
-canvas.width = W + 100;
-canvas.height = H + 10;
+canvas.width = W;
+canvas.height = H;
 
 var W_old = W;
 var H_old = H;
 
 var fontSize = 16;
-var columns = Math.ceil((W + 100) / fontSize);
+var columns = Math.ceil(W / fontSize);
 
 var drops = [];
 for (var i = 0; i < columns; i++) {
@@ -24,13 +24,13 @@ function draw() {
   H = window.innerHeight;
 
   if (W != W_old || H != H_old) {
-    canvas.width = W + 100;
-    canvas.height = H + 10;
+    canvas.width = W;
+    canvas.height = H;
 
     W_old = W;
     H_old = H;
 
-    columns = Math.ceil((W + 100) / fontSize);
+    columns = Math.ceil(W / fontSize);
     drops = [];
     for (var i = 0; i < columns; i++) {
       drops.push(0);
@@ -40,7 +40,7 @@ function draw() {
   // printText("JavaScript Hacking Effect");
 
   context.fillStyle = "rgba(0,0,0,0.05)";
-  context.fillRect(0, 0, W + 100, H + 100);
+  context.fillRect(0, 0, W, H);
   context.fontSize = "700 " + fontSize + "px";
   context.fillStyle = "#00cc33";
   for (var i = 0; i < columns; i++) {
@@ -48,7 +48,7 @@ function draw() {
     var x = i * fontSize;
     var y = drops[i] * fontSize;
     context.fillText(str[index], x, y);
-    if (y >= canvas.height + 300 && Math.random() > 0.99) {
+    if (y >= canvas.height && Math.random() > 0.99) {
       drops[i] = 0;
     }
     drops[i]++;

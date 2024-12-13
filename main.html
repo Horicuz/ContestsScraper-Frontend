@@ -10,7 +10,7 @@
 
   <body>
     <canvas id="canvas" style="background: #111"></canvas>
-    <script src="wallpaper.js"></script>
+    <script defer src="wallpaper.js"></script>
 
     <div class="background">
       <div class="container">
@@ -29,9 +29,9 @@
             <option value = "2" data-value="2">LeetCode</option>
             <option value = "3" data-value="3">AtCoder</option>
           </select>
-          <input type="text" class="search" placeholder="Search" />
-          <button class="Start_time" onclick="">StartTime</button>
-          <button class="Difficulty" onclick="">Difficulty</button>
+          <input type="text" class="search" id="Search" placeholder="Search" />
+          <button class="Start_time" id="Start" onclick="">StartTime</button>
+          <button class="Difficulty" id="Duration" onclick="">Duration</button>
         </div>
         <div class="scrollbox">
           <div class="inner">
