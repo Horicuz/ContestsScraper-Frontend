@@ -10,7 +10,7 @@
 
   <body>
     <canvas id="canvas" style="background: #111"></canvas>
-    <script defer src="wallpaper.js"></script>
+    <script defer src="scripts/wallpaper.js"></script>
 
     <div class="background">
       <div class="container">
@@ -20,14 +20,14 @@
       </div>
 
       <div class="lists">
-        <script defer src="fetcher.js"></script>
-        <script defer src="filter.js"></script>
+        <script defer src="scripts/fetcher.js"></script>
+        <script defer src="scripts/filter.js"></script>
         <div class="settings">
-          <select id="contest-select" class="select"">
-            <option value = "0" data-value="0">All Contests</option>
-            <option value = "1" data-value="1">Codeforces</option>
-            <option value = "2" data-value="2">LeetCode</option>
-            <option value = "3" data-value="3">AtCoder</option>
+          <select id="contest-select" class="select">
+            <option value="0" data-value="0">All Contests</option>
+            <option value="1" data-value="1">Codeforces</option>
+            <option value="2" data-value="2">LeetCode</option>
+            <option value="3" data-value="3">AtCoder</option>
           </select>
           <input type="text" class="search" id="Search" placeholder="Search" />
           <button class="Start_time" id="Start" onclick="">StartTime</button>
